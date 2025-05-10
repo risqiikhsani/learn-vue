@@ -36,6 +36,13 @@ import { RouterLink, RouterView } from 'vue-router'
           >
             Learn
           </RouterLink>
+          <RouterLink
+            to="/global-state"
+            class="text-slate-600 hover:text-blue-600 transition-colors duration-200"
+            active-class="font-bold text-blue-600"
+          >
+            Global State
+          </RouterLink>
         </nav>
       </div>
     </div>
